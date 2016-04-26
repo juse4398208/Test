@@ -2,14 +2,14 @@
 
 
 ===============================
-#### 準備
+## 準備
 
 - Node.js
 - Git
 
-#### 步驟
+## 步驟
 
-Linux :
+####Linux :
 
 - 安裝 [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - 安裝 [NVM](https://github.com/creationix/nvm)
@@ -23,7 +23,7 @@ nvm install v4.X
 - 以上步驟完成後下 `npm start` 來啟動執行專案
 - 使用瀏覽器查看的話，在網址列打上 `http://localhost:9001/`
 
-Mac :
+####Mac :
 
 - 安裝 [Homebrew](http://brew.sh/)
 - 安裝 Git：Xode 內建已有 Git
