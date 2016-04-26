@@ -28,7 +28,9 @@ Mac :
 - 安裝 [Homebrew](http://brew.sh/)
 - 安裝 Git：Xode 內建已有 Git
 - 安裝 NVM：可以使用 `brew install nvm` 安裝
+
 其他相關設定可以查詢[nvm](https://github.com/creationix/nvm)
+
 - 安裝 Node.js (4.x latest)
 ```
 nvm install v4.X
