@@ -1,6 +1,6 @@
 # kdh-official-website
 
-### 啟動步驟說明
+
 ===============================
 #### 準備
 
@@ -10,9 +10,11 @@
 #### 步驟
 
 - 安裝 Node.js
-```
+
 Linux :
-安裝 [NVM](https://github.com/creationix/nvm)
 
-
+1. 安裝 [NVM](https://github.com/creationix/nvm)
+2. 安裝 Node.js (4.x latest)
+```
+nvm install v4.X
 ```
