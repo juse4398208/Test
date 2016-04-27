@@ -6,7 +6,7 @@
 - Git
 
 ## 專案設定
-- `npm i` 執行完後，在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
+- 在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
 
 ## 執行步驟
 
