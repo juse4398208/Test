@@ -1,11 +1,14 @@
 # 說明
 
-## 準備
+## 開發環境
 
 - Node.js
 - Git
 
-## 步驟
+## 專案設定
+- `npm i` 執行完後，在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
+
+## 執行步驟
 
 #### Linux :
 
@@ -17,7 +20,6 @@ nvm install v4.X
 ```
 - 安裝完 Node.js 後，使用 git 下載或是下載專案 ZIP 檔
 - 在專案目錄下，下 `npm i` 指令來安裝需要的套件
-- `npm i` 執行完後，在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
 - 以上步驟完成後下 `npm start` 來啟動執行專案
 - 使用瀏覽器查看，在網址列打上 `http://localhost:9001/`
 
@@ -32,7 +34,6 @@ nvm install v4.X
 ```
 - 安裝完 Node.js 後，使用 git 下載或是下載專案 ZIP 檔
 - 在專案目錄下，下 `npm i` 指令來安裝需要的套件
-- `npm i` 執行完後，在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
 - 以上步驟完成後下 `npm start` 來啟動執行專案
 - 使用瀏覽器查看，在網址列打上 `http://localhost:9001/`
 
@@ -42,6 +43,5 @@ nvm install v4.X
 - 安裝 [Git](https://git-scm.com/downloads)
 - git clone 專案或是下載專案 ZIP檔
 - 在專案目錄下，下 `npm i` 安裝程式所需套件
-- `npm i` 執行完後，在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
 - 以上步驟完成後下 `npm start` 來啟動執行專案
 - 使用瀏覽器查看，在網址列打上 `http://localhost:9001/`
