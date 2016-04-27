@@ -7,6 +7,15 @@
 
 ## 專案設定
 - 在 `專案/config` 裡面增加 `mail.js` 檔案，可以複製 `mail.default.js` 檔案內容
+- 把網址映射到 `localhost:9001` 設定範例
+```
+server {
+        server_name preview.kdhservice.com alpha.kdhservice.com www.kdhservice.com kdhservice.com jarvish.com www.jarvish.com;
+        location / {
+                proxy_pass http://localhost:9001;
+        }
+}
+```
 
 ## 執行步驟
 
