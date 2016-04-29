@@ -6,7 +6,6 @@
 - [Awesome React Native](4)
 - [React-Native-lesson](5)
 - [livecoding - ReactNative 影片](6)
-- 
 
   [1]: https://facebook.github.io/react-native/docs/getting-started.html
   [2]: https://github.com/ele828/react-native-guide
