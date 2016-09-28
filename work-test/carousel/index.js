@@ -23,4 +23,9 @@
   $('#tiles').imagesLoaded(function(){
     handler.wookmark(options);
   });
+
+  $('#tiles').mouseover(function(){
+    $("div").off();
+  });
+
 })(jQuery);
