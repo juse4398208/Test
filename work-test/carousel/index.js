@@ -1,27 +1,31 @@
-function bigImg(x) {
-    x.style.height = "660px";
-    x.style.width = "990px";
-}
+(function ($){
+  // Prepare layout options.
+  var options = {
+    autoResize: true, // This will auto-update the layout when the browser window is resized.
+    container: $('#main'), // Optional, used for some extra CSS styling
+    offset: 2, // Optional, the distance between grid items
+    itemWidth: 210 // Optional, the width of a grid item
+  };
 
-function normalImg(x) {
-    x.style.height = "300px";
-    x.style.width = "400px";
-}
+  // Get a reference to your grid items.
+  var handler = $('#tiles li');
 
-var slideIndex = 1;
-showDivs(slideIndex);
+  // Init lightbox
+  $('#tiles').magnificPopup({
+    delegate: 'li:not(.inactive) a',
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+  // Call the layout function after all images have loaded
+  $('#tiles').imagesLoaded(function(){
+    handler.wookmark(options);
+  });
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
+  $('#tiles').mouseover(function(){
+    $("div").off();
+  });
+
+})(jQuery);

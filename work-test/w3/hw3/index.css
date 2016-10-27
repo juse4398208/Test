@@ -1,0 +1,31 @@
+
+/*頭*/
+
+.header {
+    width: auto;
+    height: 100px;
+    background-color: #FFF;
+}
+
+.eyebrow {
+    width: auto;
+    height: 27px;
+    background-color: #0000FF;
+}
+
+.eyebrow_li li {
+    display: inline;
+}
+
+.eyebrow_li_word_a {
+    color: #FFF;
+}
+
+.eyebrow_li_word_b {
+    color: #FFF;
+    float: right;
+}
+
+.logo {
+
+}
