@@ -10,3 +10,10 @@ body {
 .title {
   text-align: center;
 }
+
+.login-box {
+  height: 550px;
+  width: 330px;
+  background-color: #8cc0f2;
+  text-align: center;
+}
