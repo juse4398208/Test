@@ -2,4 +2,4 @@ allen 10
 kevin 222
 bill 345
 caroline 433
-ronn 6
+ronn 2
